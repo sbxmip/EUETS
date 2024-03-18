@@ -2,7 +2,6 @@ import os
 import swat
 import getpass
 from sasctl import Session
-from sasctl.tasks import register_model, publish_model
 
 password = getpass.getpass ('Enter your password : ')
 hostname = "https://viya4-s2.zeus.sashq-d.openstack.sas.com/"
