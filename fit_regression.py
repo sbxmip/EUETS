@@ -1,8 +1,3 @@
-import swat
-
-hostname = "https://viya4-s2.zeus.sashq-d.openstack.sas.com/"
-conn = swat.CAS('https://viya4-s2.zeus.sashq-d.openstack.sas.com/cas-shared-default-http', username='sbxmip',password=password)
-
 EU_ETS_tbl = conn.CASTable('EU_ETS_CURATED', caslib='EBA')
 
 conn.loadActionSet('regression')
