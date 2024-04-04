@@ -85,7 +85,7 @@ def getUserToken(username, password):
         return False, None
 
 # Load the Large Language Model - from Azure OpenAI
-open_ai_key='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'
+open_ai_key=''
 from langchain_openai import ChatOpenAI
 
 ## We'll use GPT-4 as deployed model
