@@ -52,7 +52,7 @@ st.session_state["chat_history"] = []
 
 sasserver = "https://viya4-s2.zeus.sashq-d.openstack.sas.com"
 clientId='sas.ec'
-clientSecret=''
+##clientSecret=''
 
 ## streamlit login form
 def login_form():
